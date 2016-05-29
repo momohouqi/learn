@@ -114,7 +114,6 @@ void LearnStl::test_boost_any()
     std::for_each(many.begin(), many.end(), MyPrintObject());
 }
 
-
 void LearnStl::test_boost_assign()
 {
     declare("boost's assigen operation");

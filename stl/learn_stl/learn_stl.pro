@@ -12,4 +12,5 @@ qtcAddDeployment()
 HEADERS += \
     learnstl.h
 
-INCLUDEPATH += "C:\Users\willchen\Install\msys\1.0\boost_1_61_0"
+INCLUDEPATH += /usr/local/boost_1_61_0
+

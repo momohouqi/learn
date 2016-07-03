@@ -1,0 +1,8 @@
+1. QState and QStateMachine
+	1).QState::asignProperty(QObject* obj, prperty_name, property_value)
+	2).QEventTransition::setTargetState，用来接收触发事件并指定目标QState
+	3).QState通过addTransition添加QEventTransition，从而一个Transition连接2个QState
+	4).一个QEventTransition是从一个state到另一个state的一个方向
+	5).最后通过QStateMachine添加各个state,并指定初始state，最后start启动。
+	
+	
